@@ -1,0 +1,10 @@
+{
+  "student-host:host": {
+    "os": "windows",
+    "default-gateway": "192.168.1.1",
+    "dns-server": ["192.168.1.1"],
+    "interface": [
+      {"name": "Ethernet 3", "type": "ethernet", "oper-status": "up"}
+    ]
+  }
+}
