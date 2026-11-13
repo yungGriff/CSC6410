@@ -1,0 +1,103 @@
+{
+    "student-host:host": {
+        "hostname": "HOST-XX",
+        "os": "windows",
+        "collected-at": "2026-11-12T21:46:44.838598-06:00",
+        "dns-server": [
+            "1.1.xx.xx",
+            "8.8.xx.xx",
+            "fec0:0:0:ffff::1",
+            "fec0:0:0:ffff::2",
+            "fec0:0:0:ffff::3"
+        ],
+        "interface": [
+            {
+                "name": "Local Area Connection* 13",
+                "type": "other",
+                "oper-status": "up"
+            },
+            {
+                "name": "Local Area Connection* 3",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection* 12",
+                "type": "other",
+                "oper-status": "up"
+            },
+            {
+                "name": "Ethernet (Kernel Debugger)",
+                "type": "ethernet",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection* 8",
+                "type": "other",
+                "oper-status": "up"
+            },
+            {
+                "name": "Teredo Tunneling Pseudo-Interface",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection* 5",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection* 7",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection",
+                "type": "other",
+                "oper-status": "down",
+                "mac": "00:ff:5e:xx:xx:xx",
+                "mtu": 1500,
+                "ipv4": [
+                    "169.254.xx.xx/16"
+                ],
+                "ipv6": [
+                    "fe80::2558:b67a:bcfa:96b6%12/64"
+                ]
+            },
+            {
+                "name": "Ethernet 3",
+                "type": "ethernet",
+                "oper-status": "up",
+                "mac": "24:4b:fe:xx:xx:xx",
+                "mtu": 1500,
+                "ipv4": [
+                    "192.168.xx.xx/24"
+                ],
+                "ipv6": [
+                    "fe80::c428:648d:b880:451e%11/64"
+                ]
+            },
+            {
+                "name": "Local Area Connection* 6",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Microsoft IP-HTTPS Platform Interface",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "Local Area Connection* 4",
+                "type": "other",
+                "oper-status": "down"
+            },
+            {
+                "name": "6to4 Adapter",
+                "type": "other",
+                "oper-status": "down"
+            }
+        ],
+        "default-gateway": "192.168.xx.xx"
+    }
+}
